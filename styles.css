@@ -1,0 +1,266 @@
+/* 
+  Reset default styles for all elements 
+  This helps to ensure consistent styling across different browsers
+*/
+* {
+    margin: 0;
+    /* Removes default margin from all elements */
+    padding: 0;
+    /* Removes default padding from all elements */
+    box-sizing: border-box;
+    /* Includes padding and border in element's total width and height */
+}
+
+/* 
+  Body styles 
+  Sets up the main font, background color, and text color for the page
+*/
+body {
+    font-family: Arial, sans-serif;
+    /* Sets the font for the body text */
+    line-height: 1.6;
+    /* Sets the line height for readability */
+    background-color: #f4f4f4;
+    /* Sets a light gray background color */
+    color: #333;
+    /* Sets a dark gray text color */
+}
+
+/* 
+  Header styles 
+  Styles the header section of the page
+*/
+header {
+    background-color: #333;
+    /* Sets a dark background color for the header */
+    color: #fff;
+    /* Sets the text color to white */
+    padding: 20px;
+    /* Adds padding inside the header */
+    text-align: center;
+    /* Centers text within the header */
+}
+
+/* 
+  Main heading styles within the header 
+*/
+header h1 {
+    font-size: 2.5em;
+    /* Sets the size of the main heading */
+    margin-bottom: 10px;
+    /* Adds space below the heading */
+}
+
+/* 
+  Subtitle styles within the header 
+*/
+header p {
+    font-style: italic;
+    /* Makes the subtitle italicized */
+}
+
+/* 
+  Navigation styles 
+  Styles the navigation menu
+*/
+nav {
+    margin-top: 10px;
+    /* Adds space above the navigation */
+}
+
+/* 
+  Styles for navigation links 
+*/
+nav a {
+    color: #fff;
+    /* Sets link color to white */
+    text-decoration: none;
+    /* Removes underline from links */
+    margin: 0 15px;
+    /* Adds horizontal space between links */
+    font-weight: bold;
+    /* Makes links bold */
+}
+
+/* 
+  Section styles 
+  Applies styling to all sections on the page
+*/
+section {
+    max-width: 700px;
+    /* Sets a maximum width for sections */
+    margin: 30px auto;
+    /* Centers sections with space above and below */
+    padding: 20px;
+    /* Adds padding inside sections */
+    background: #fff;
+    /* Sets a white background for sections */
+    border-radius: 8px;
+    /* Rounds the corners of the section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for depth */
+}
+
+/* 
+  Styles for secondary headings 
+*/
+h2 {
+    color: #333;
+    /* Sets the text color */
+    border-bottom: 2px solid #333;
+    /* Adds a bottom border for emphasis */
+    padding-bottom: 5px;
+    /* Adds space below the heading text */
+    margin-bottom: 15px;
+    /* Adds space below the heading */
+    text-align: center;
+    /* Centers the heading text */
+    font-size: 1.8em;
+    /* Sets the font size */
+}
+
+/* 
+  Profile picture styles 
+  Styles the circular profile picture
+*/
+.profile-pic {
+    width: 120px;
+    /* Sets the width of the profile picture */
+    height: 120px;
+    /* Sets the height of the profile picture */
+    border-radius: 50%;
+    /* Makes the picture circular */
+    display: block;
+    /* Displays the image as a block element */
+    margin: 0 auto 15px;
+    /* Centers the image with space below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adds a shadow effect */
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1em;
+    /* Increases font size for contact information */
+    text-align: center;
+    /* Centers the contact text */
+}
+
+/* 
+  General link styles 
+*/
+a {
+    color: #007bff;
+    /* Sets a blue color for links */
+    transition: color 0.3s;
+    /* Smooth transition for link color changes */
+}
+
+/* 
+  Hover effects for links 
+*/
+a:hover {
+    color: #0056b3;
+    /* Changes link color when hovered over */
+}
+
+/* Footer styles */
+footer {
+    padding: 15px;
+    /* Adds padding inside the footer */
+    font-size: 0.9em;
+    /* Sets a smaller font size */
+    color: #888;
+    /* Sets a light gray color for footer text */
+    text-align: center;
+    /* Centers footer text */
+}
+
+/* 
+  Styles for unordered lists 
+*/
+ul {
+    list-style-type: disc;
+    /* Sets bullet points for list items */
+    padding-left: 20px;
+    /* Adds space to the left of the list */
+}
+
+/* 
+  Styles for job and education items 
+*/
+.job,
+.education-item {
+    margin-bottom: 20px;
+    /* Adds space below each job or education item */
+}
+
+/* 
+  Styles for social links in the contact section 
+*/
+.social-links a {
+    display: inline-block;
+    /* Displays links as block elements for spacing */
+    margin-right: 10px;
+    /* Adds space to the right of each link */
+    color: #333;
+    /* Sets the color for social links */
+    text-decoration: none;
+    /* Removes underline from social links */
+}
+
+/* 
+  Hover effect for social links 
+*/
+.social-links a:hover {
+    text-decoration: underline;
+    /* Adds underline when hovered */
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 150px;
+    /* Sets the width of the profile image */
+    height: 150px;
+    /* Sets the height of the profile image */
+    border-radius: 50%;
+    /* Makes the image circular */
+    display: block;
+    /* Displays the image as a block element */
+    margin: 20px auto;
+    /* Centers the image with vertical space */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a shadow for depth */
+}
+
+/* Social Media Icons Styling */
+.social-media {
+    display: flex;
+    /* Uses flexbox for layout */
+    justify-content: center;
+    /* Centers the social media icons */
+    gap: 20px;
+    /* Adds space between icons */
+    margin-top: 15px;
+    /* Adds space above the social media section */
+}
+
+/* 
+  Styles for social media icons 
+*/
+.social-media img {
+    width: 32px;
+    /* Sets the width of social media icons */
+    height: 32px;
+    /* Sets the height of social media icons */
+    transition: transform 0.3s ease;
+    /* Smooth scaling transition for hover effect */
+}
+
+/* 
+  Hover effect for social media icons 
+*/
+.social-media img:hover {
+    transform: scale(1.1);
+    /* Scales up the icon when hovered */
+}
